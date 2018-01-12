@@ -188,7 +188,7 @@ class Trainer(object):
         self.stats['policy_loss'].append(total_p)
         self.training_buffer = vectorize_history(empty_local_history({}))
 
-    def write_summary(self, summary_writer, steps, lesson_number):
+    def write_summary(self, summary_writer, steps):
         """
         Saves training statistics to Tensorboard.
         :param summary_writer: writer associated with Tensorflow session.
@@ -204,7 +204,6 @@ class Trainer(object):
                 stat_mean = float(np.mean(self.stats[key]))
                 summary.value.add(tag='Info/{}'.format(key), simple_value=stat_mean)
                 self.stats[key] = []
-        summary.value.add(tag='Info/Lesson', simple_value=lesson_number)
         summary_writer.add_summary(summary, steps)
         summary_writer.flush()
 
