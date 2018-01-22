@@ -12,42 +12,42 @@ from agents import GymEnvironment
 
 # Algorithm parameters
 # batch-size=<n>           How many experiences per gradient descent update step [default: 64].
-batch_size = 1024
+batch_size = 4096
 # beta=<n>                 Strength of entropy regularization [default: 2.5e-3].
 beta = 2.5e-3
 # buffer-size=<n>          How large the experience buffer should be before gradient descent [default: 2048].
-buffer_size = batch_size * 128
+buffer_size = batch_size * 32
 # epsilon=<n>              Acceptable threshold around ratio of old and new policy probabilities [default: 0.2].
 epsilon = 0.2
 # gamma=<n>                Reward discount rate [default: 0.99].
-gamma = 0.995
+gamma = 0.99
 # hidden-units=<n>         Number of units in hidden layer [default: 64].
 hidden_units = 128
 # lambd=<n>                Lambda parameter for GAE [default: 0.95].
 lambd = 0.95
 # learning-rate=<rate>     Model learning rate [default: 3e-4].
-learning_rate = 5e-5
+learning_rate = 4e-5
 # normalize                Whether to normalize the state input using running statistics [default: False].
 normalize = False
 # num-epoch=<n>            Number of gradient descent steps per batch of experiences [default: 5].
-num_epoch = 10
+num_epoch = 15
 # num-layers=<n>           Number of hidden layers between state/observation and outputs [default: 2].
 num_layers = 2
 # time-horizon=<n>         How many steps to collect per agent before adding to buffer [default: 2048].
-time_horizon = 1024
+time_horizon = 512
 
 # General parameters
 # keep-checkpoints=<n>     How many model checkpoints to keep [default: 5].
 keep_checkpoints = 5
 # load                     Whether to load the model or randomly initialize [default: False].
-load_model = True
+load_model = False
 # max-steps=<n>            Maximum number of steps to run environment [default: 1e6].
 max_steps = 30e6
 # run-path=<path>          The sub-directory name for model and summary statistics.
 summary_path = './PPO_summary'
 model_path = './models'
 # summary-freq=<n>         Frequency at which to save training statistics [default: 10000].
-summary_freq = buffer_size / 4
+summary_freq = buffer_size
 # save-freq=<n>            Frequency at which to save model [default: 50000].
 save_freq = buffer_size
 # train                    Whether to train model, or only run inference [default: False].
@@ -60,6 +60,7 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "-1"  # GPU is not efficient here
 env_name = 'RocketLander-v0'
 env = GymEnvironment(env_name=env_name, log_path="./PPO_log")
 env_render = GymEnvironment(env_name=env_name, log_path="./PPO_log_render", render=True)
+fps = env_render.env.metadata.get('video.frames_per_second', 30)
 
 print(str(env))
 brain_name = env.external_brain_names[0]
@@ -138,7 +139,7 @@ with tf.Session() as sess:
                 last_reward = sess.run(ppo_model.last_reward)
         if not render_started and render:
             renderthread = RenderThread(sess=sess, trainer=trainer_monitor,
-                                        environment=env_render, brain_name=brain_name, normalize=normalize)
+                                        environment=env_render, brain_name=brain_name, normalize=normalize, fps=fps)
             renderthread.start()
             render_started = True
     # Final save Tensorflow model
