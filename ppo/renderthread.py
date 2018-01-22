@@ -18,12 +18,11 @@ class RenderThread(threading.Thread):
         with self.sess.as_default():
             while True:
                 with self.pause_cond:
-                    while self.paused:
-                        self.pause_cond.wait()
-
                     done = False
                     info = self.env.reset()[self.brain_name]
                     while not done:
+                        while self.paused:
+                            self.pause_cond.wait()
                         t_s = time.time()
                         info = self.trainer.take_action(info, self.env, self.brain_name, 0, self.normalize,
                                                         stochastic=False)
