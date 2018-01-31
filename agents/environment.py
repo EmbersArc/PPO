@@ -10,14 +10,20 @@ logger = logging.getLogger("unityagents")
 
 
 class GymEnvironment(object):
-    def __init__(self, env_name, log_path, render=False):
+    def __init__(self, env_name, log_path, render=False, skip_frames=1):
         atexit.register(self.close)
         self._academy_name = "Gym Environment"
         self._current_returns = {}
         self._last_action = []
         self.render = render
-
         self.env = gym.make(env_name)
+
+        if skip_frames < 0 or not isinstance(skip_frames, int):
+            logger.error("Invalid frame skip value. Frame skip deactivated.")
+        elif skip_frames > 1:
+            frameskip_wrapper = gym.wrappers.SkipWrapper(skip_frames)
+            self.env = frameskip_wrapper(self.env)
+
         ob_space = self.env.observation_space
         ac_space = self.env.action_space
         if isinstance(ac_space, gym.spaces.Box):

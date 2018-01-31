@@ -12,11 +12,11 @@ from agents import GymEnvironment
 
 # Algorithm parameters
 # batch-size=<n>           How many experiences per gradient descent update step [default: 64].
-batch_size = 4096
+batch_size = 256
 # beta=<n>                 Strength of entropy regularization [default: 2.5e-3].
 beta = 2.5e-3
 # buffer-size=<n>          How large the experience buffer should be before gradient descent [default: 2048].
-buffer_size = batch_size * 32
+buffer_size = batch_size * 16
 # epsilon=<n>              Acceptable threshold around ratio of old and new policy probabilities [default: 0.2].
 epsilon = 0.2
 # gamma=<n>                Reward discount rate [default: 0.99].
@@ -26,11 +26,11 @@ hidden_units = 128
 # lambd=<n>                Lambda parameter for GAE [default: 0.95].
 lambd = 0.95
 # learning-rate=<rate>     Model learning rate [default: 3e-4].
-learning_rate = 4e-5
+learning_rate = 1e-4
 # normalize                Whether to normalize the state input using running statistics [default: False].
 normalize = False
 # num-epoch=<n>            Number of gradient descent steps per batch of experiences [default: 5].
-num_epoch = 15
+num_epoch = 5
 # num-layers=<n>           Number of hidden layers between state/observation and outputs [default: 2].
 num_layers = 2
 # time-horizon=<n>         How many steps to collect per agent before adding to buffer [default: 2048].
@@ -42,7 +42,7 @@ keep_checkpoints = 5
 # load                     Whether to load the model or randomly initialize [default: False].
 load_model = False
 # max-steps=<n>            Maximum number of steps to run environment [default: 1e6].
-max_steps = 30e6
+max_steps = 5e6
 # run-path=<path>          The sub-directory name for model and summary statistics.
 summary_path = './PPO_summary'
 model_path = './models'
@@ -58,7 +58,7 @@ render = True
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"  # GPU is not efficient here
 
 env_name = 'RocketLander-v0'
-env = GymEnvironment(env_name=env_name, log_path="./PPO_log")
+env = GymEnvironment(env_name=env_name, log_path="./PPO_log", skip_frames=4)
 env_render = GymEnvironment(env_name=env_name, log_path="./PPO_log_render", render=True)
 fps = env_render.env.metadata.get('video.frames_per_second', 30)
 
