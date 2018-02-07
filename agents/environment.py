@@ -10,7 +10,7 @@ logger = logging.getLogger("unityagents")
 
 
 class GymEnvironment(object):
-    def __init__(self, env_name, log_path, render=False, skip_frames=1):
+    def __init__(self, env_name, log_path, render=False, skip_frames=1, record=False):
         atexit.register(self.close)
         self._academy_name = "Gym Environment"
         self._current_returns = {}
@@ -23,6 +23,9 @@ class GymEnvironment(object):
         elif skip_frames > 1:
             frameskip_wrapper = gym.wrappers.SkipWrapper(skip_frames)
             self.env = frameskip_wrapper(self.env)
+
+        if record:
+            self.env = gym.wrappers.Monitor(self.env, "./video", lambda x: True)
 
         ob_space = self.env.observation_space
         ac_space = self.env.action_space

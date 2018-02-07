@@ -22,19 +22,19 @@ epsilon = 0.2
 # gamma=<n>                Reward discount rate [default: 0.99].
 gamma = 0.99
 # hidden-units=<n>         Number of units in hidden layer [default: 64].
-hidden_units = 128
+hidden_units = 64
 # lambd=<n>                Lambda parameter for GAE [default: 0.95].
 lambd = 0.95
 # learning-rate=<rate>     Model learning rate [default: 3e-4].
-learning_rate = 1e-4
+learning_rate = 5e-5
 # normalize                Whether to normalize the state input using running statistics [default: False].
-normalize = False
+normalize = True
 # num-epoch=<n>            Number of gradient descent steps per batch of experiences [default: 5].
-num_epoch = 5
+num_epoch = 10
 # num-layers=<n>           Number of hidden layers between state/observation and outputs [default: 2].
-num_layers = 2
+num_layers = 1
 # time-horizon=<n>         How many steps to collect per agent before adding to buffer [default: 2048].
-time_horizon = 512
+time_horizon = 2048
 
 # General parameters
 # keep-checkpoints=<n>     How many model checkpoints to keep [default: 5].
@@ -49,17 +49,19 @@ model_path = './models'
 # summary-freq=<n>         Frequency at which to save training statistics [default: 10000].
 summary_freq = buffer_size
 # save-freq=<n>            Frequency at which to save model [default: 50000].
-save_freq = buffer_size
+save_freq = buffer_size * 10
 # train                    Whether to train model, or only run inference [default: False].
 train_model = True
 # render environment to display progress
 render = True
+# save recordings of episodes
+record = False
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"  # GPU is not efficient here
 
 env_name = 'RocketLander-v0'
-env = GymEnvironment(env_name=env_name, log_path="./PPO_log", skip_frames=4)
-env_render = GymEnvironment(env_name=env_name, log_path="./PPO_log_render", render=True)
+env = GymEnvironment(env_name=env_name, log_path="./PPO_log", skip_frames=5)
+env_render = GymEnvironment(env_name=env_name, log_path="./PPO_log_render", render=True, record=record)
 fps = env_render.env.metadata.get('video.frames_per_second', 30)
 
 print(str(env))
