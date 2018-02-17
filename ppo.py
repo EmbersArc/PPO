@@ -22,13 +22,15 @@ epsilon = 0.2
 # gamma=<n>                Reward discount rate [default: 0.99].
 gamma = 0.99
 # hidden-units=<n>         Number of units in hidden layer [default: 64].
-hidden_units = 64
+hidden_units = 128
 # lambd=<n>                Lambda parameter for GAE [default: 0.95].
 lambd = 0.95
 # learning-rate=<rate>     Model learning rate [default: 3e-4].
-learning_rate = 5e-5
-# normalize                Whether to normalize the state input using running statistics [default: False].
-normalize = True
+learning_rate = 1e-4
+# max-steps=<n>            Maximum number of steps to run environment [default: 1e6].
+max_steps = 20e6
+# normalize                Activate state normalization for this many steps and freeze statistics afterwards.
+normalize_steps = 10e6
 # num-epoch=<n>            Number of gradient descent steps per batch of experiences [default: 5].
 num_epoch = 10
 # num-layers=<n>           Number of hidden layers between state/observation and outputs [default: 2].
@@ -40,16 +42,14 @@ time_horizon = 2048
 # keep-checkpoints=<n>     How many model checkpoints to keep [default: 5].
 keep_checkpoints = 5
 # load                     Whether to load the model or randomly initialize [default: False].
-load_model = False
-# max-steps=<n>            Maximum number of steps to run environment [default: 1e6].
-max_steps = 5e6
+load_model = True
 # run-path=<path>          The sub-directory name for model and summary statistics.
 summary_path = './PPO_summary'
 model_path = './models'
 # summary-freq=<n>         Frequency at which to save training statistics [default: 10000].
-summary_freq = buffer_size
+summary_freq = buffer_size * 5
 # save-freq=<n>            Frequency at which to save model [default: 50000].
-save_freq = buffer_size * 10
+save_freq = summary_freq
 # train                    Whether to train model, or only run inference [default: False].
 train_model = True
 # render environment to display progress
@@ -72,7 +72,7 @@ tf.reset_default_graph()
 ppo_model = create_agent_model(env, lr=learning_rate,
                                h_size=hidden_units, epsilon=epsilon,
                                beta=beta, max_step=max_steps,
-                               normalize=normalize, num_layers=num_layers)
+                               normalize=normalize_steps, num_layers=num_layers)
 
 is_continuous = env.brains[brain_name].action_space_type == "continuous"
 use_observations = False
@@ -114,7 +114,7 @@ with tf.Session() as sess:
             info = env.reset()[brain_name]
             trainer.reset_buffers(info, total=True)
         # Decide and take an action
-        info = trainer.take_action(info, env, brain_name, steps, normalize, stochastic=True)
+        info = trainer.take_action(info, env, brain_name, steps, normalize_steps, stochastic=True)
         trainer.process_experiences(info, time_horizon, gamma, lambd)
         if len(trainer.training_buffer['actions']) > buffer_size and train_model:
             if render:
@@ -141,7 +141,7 @@ with tf.Session() as sess:
                 last_reward = sess.run(ppo_model.last_reward)
         if not render_started and render:
             renderthread = RenderThread(sess=sess, trainer=trainer_monitor,
-                                        environment=env_render, brain_name=brain_name, normalize=normalize, fps=fps)
+                                        environment=env_render, brain_name=brain_name, normalize=normalize_steps, fps=fps)
             renderthread.start()
             render_started = True
     # Final save Tensorflow model
@@ -149,3 +149,5 @@ with tf.Session() as sess:
         save_model(sess=sess, model_path=model_path, steps=steps, saver=saver)
 env.close()
 export_graph(model_path, env_name)
+os.system("shutdown")
+

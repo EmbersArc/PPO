@@ -60,15 +60,17 @@ class Trainer(object):
             feed_dict[self.model.observation_in] = np.vstack(info.observations)
         if self.use_states:
             feed_dict[self.model.state_in] = info.states
-        if self.is_training and env.brains[brain_name].state_space_type == "continuous" and self.use_states and normalize:
+        if self.is_training and env.brains[brain_name].state_space_type == "continuous" and \
+                self.use_states and normalize > 0:
             new_mean, new_variance = self.running_average(info.states, steps, self.model.running_mean,
                                                           self.model.running_variance)
             feed_dict[self.model.new_mean] = new_mean
             feed_dict[self.model.new_variance] = new_variance
-            run_list = run_list + [self.model.update_mean, self.model.update_variance]
-            actions, actions_max, a_dist, value, ent, learn_rate, _, _ = self.sess.run(run_list, feed_dict=feed_dict)
-        else:
-            actions, actions_max, a_dist, value, ent, learn_rate = self.sess.run(run_list, feed_dict=feed_dict)
+            run_list = run_list + [self.model.update_variance]
+            if normalize > steps:
+                run_list += [self.model.update_mean, self.model.update_norm_variance]
+
+        actions, actions_max, a_dist, value, ent, learn_rate = self.sess.run(run_list, feed_dict=feed_dict)[0:6]
         self.stats['value_estimate'].append(value)
         self.stats['entropy'].append(ent)
         self.stats['learning_rate'].append(learn_rate)
@@ -218,11 +220,10 @@ class Trainer(object):
         """
         try:
             s_op = tf.summary.text(key,
-                    tf.convert_to_tensor(([[str(x), str(input_dict[x])] for x in input_dict]))
-                    )
+                                   tf.convert_to_tensor(([[str(x), str(input_dict[x])] for x in input_dict]))
+                                   )
             s = self.sess.run(s_op)
             summary_writer.add_summary(s, steps)
         except:
             print("Cannot write text summary for Tensorboard. Tensorflow version must be r1.2 or above.")
             pass
-

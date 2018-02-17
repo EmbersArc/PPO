@@ -4,7 +4,7 @@ import tensorflow.contrib.layers as c_layers
 from tensorflow.python.tools import freeze_graph
 
 
-def create_agent_model(env, lr=1e-4, h_size=128, epsilon=0.2, beta=1e-3, max_step=5e6, normalize=False, num_layers=2):
+def create_agent_model(env, lr=1e-4, h_size=128, epsilon=0.2, beta=1e-3, max_step=5e6, normalize=0, num_layers=2):
     """
     Takes a Unity environment and model-specific hyper-parameters and returns the
     appropriate PPO agent model for the environment.
@@ -60,12 +60,12 @@ def export_graph(model_path, env_name="env", target_nodes="action,value_estimate
 
 class PPOModel(object):
     def __init__(self):
-        self.normalize = False
+        self.normalize = 0
 
     def _create_global_steps(self):
         """Creates TF ops to track and increment global training step."""
         self.global_step = tf.Variable(0, name="global_step", trainable=False, dtype=tf.int32)
-        self.increment_step = tf.assign(self.global_step, self.global_step + 1)
+        self.increment_step = tf.assign(self.global_step, tf.cast(self.global_step, tf.int32) + 1)
 
     def _create_reward_encoder(self):
         """Creates TF ops to track and increment recent average cumulative reward."""
@@ -114,19 +114,24 @@ class PPOModel(object):
         """
         self.state_in = tf.placeholder(shape=[None, s_size], dtype=tf.float32, name='state')
 
-        if self.normalize:
+        if self.normalize > 0:
             self.running_mean = tf.get_variable("running_mean", [s_size], trainable=False, dtype=tf.float32,
                                                 initializer=tf.zeros_initializer())
             self.running_variance = tf.get_variable("running_variance", [s_size], trainable=False, dtype=tf.float32,
                                                     initializer=tf.ones_initializer())
+            self.norm_running_variance = tf.get_variable("norm_running_variance", [s_size], trainable=False,
+                                                         dtype=tf.float32,
+                                                         initializer=tf.ones_initializer())
 
-            self.normalized_state = tf.clip_by_value((self.state_in - self.running_mean) / tf.sqrt(
-                self.running_variance / (tf.cast(self.global_step, tf.float32) + 1)), -5, 5, name="normalized_state")
+            self.normalized_state = tf.clip_by_value(
+                (self.state_in - self.running_mean) / tf.sqrt(self.norm_running_variance), -5, 5, name="normalized_state")
 
             self.new_mean = tf.placeholder(shape=[s_size], dtype=tf.float32, name='new_mean')
             self.new_variance = tf.placeholder(shape=[s_size], dtype=tf.float32, name='new_variance')
             self.update_mean = tf.assign(self.running_mean, self.new_mean)
             self.update_variance = tf.assign(self.running_variance, self.new_variance)
+            self.update_norm_variance = tf.assign(self.norm_running_variance,
+                                                  self.running_variance / (tf.cast(self.global_step, tf.float32) + 1))
         else:
             self.normalized_state = self.state_in
         streams = []
