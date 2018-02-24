@@ -25,7 +25,7 @@ class GymEnvironment(object):
             self.env = frameskip_wrapper(self.env)
 
         if record:
-            self.env = gym.wrappers.Monitor(self.env, "./video", lambda x: True)
+            self.env = gym.wrappers.Monitor(self.env, "./video", lambda x: x % 15 == 0)
 
         ob_space = self.env.observation_space
         ac_space = self.env.action_space

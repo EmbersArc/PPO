@@ -1,6 +1,7 @@
 import os
 import shutil
 import time
+from time import sleep
 
 from ppo.renderthread import RenderThread
 from ppo.models import *
@@ -12,11 +13,11 @@ from agents import GymEnvironment
 
 # Algorithm parameters
 # batch-size=<n>           How many experiences per gradient descent update step [default: 64].
-batch_size = 256
+batch_size = 128
 # beta=<n>                 Strength of entropy regularization [default: 2.5e-3].
 beta = 2.5e-3
 # buffer-size=<n>          How large the experience buffer should be before gradient descent [default: 2048].
-buffer_size = batch_size * 16
+buffer_size = batch_size * 32
 # epsilon=<n>              Acceptable threshold around ratio of old and new policy probabilities [default: 0.2].
 epsilon = 0.2
 # gamma=<n>                Reward discount rate [default: 0.99].
@@ -26,11 +27,11 @@ hidden_units = 128
 # lambd=<n>                Lambda parameter for GAE [default: 0.95].
 lambd = 0.95
 # learning-rate=<rate>     Model learning rate [default: 3e-4].
-learning_rate = 1e-4
+learning_rate = 4e-5
 # max-steps=<n>            Maximum number of steps to run environment [default: 1e6].
-max_steps = 20e6
+max_steps = 15e6
 # normalize                Activate state normalization for this many steps and freeze statistics afterwards.
-normalize_steps = 10e6
+normalize_steps = 0
 # num-epoch=<n>            Number of gradient descent steps per batch of experiences [default: 5].
 num_epoch = 10
 # num-layers=<n>           Number of hidden layers between state/observation and outputs [default: 2].
@@ -51,7 +52,7 @@ summary_freq = buffer_size * 5
 # save-freq=<n>            Frequency at which to save model [default: 50000].
 save_freq = summary_freq
 # train                    Whether to train model, or only run inference [default: False].
-train_model = True
+train_model = False
 # render environment to display progress
 render = True
 # save recordings of episodes
@@ -60,7 +61,7 @@ record = False
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"  # GPU is not efficient here
 
 env_name = 'RocketLander-v0'
-env = GymEnvironment(env_name=env_name, log_path="./PPO_log", skip_frames=5)
+env = GymEnvironment(env_name=env_name, log_path="./PPO_log", skip_frames=6)
 env_render = GymEnvironment(env_name=env_name, log_path="./PPO_log_render", render=True, record=record)
 fps = env_render.env.metadata.get('video.frames_per_second', 30)
 
@@ -114,8 +115,11 @@ with tf.Session() as sess:
             info = env.reset()[brain_name]
             trainer.reset_buffers(info, total=True)
         # Decide and take an action
-        info = trainer.take_action(info, env, brain_name, steps, normalize_steps, stochastic=True)
-        trainer.process_experiences(info, time_horizon, gamma, lambd)
+        if train_model:
+            info = trainer.take_action(info, env, brain_name, steps, normalize_steps, stochastic=True)
+            trainer.process_experiences(info, time_horizon, gamma, lambd)
+        else:
+            sleep(1)
         if len(trainer.training_buffer['actions']) > buffer_size and train_model:
             if render:
                 renderthread.pause()
