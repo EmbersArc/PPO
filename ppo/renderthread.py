@@ -1,5 +1,6 @@
 import threading
 import time
+import pickle
 
 
 class RenderThread(threading.Thread):
@@ -20,14 +21,18 @@ class RenderThread(threading.Thread):
                 with self.pause_cond:
                     done = False
                     info = self.env.reset()[self.brain_name]
+                    recoding = []
                     while not done:
                         while self.paused:
                             self.pause_cond.wait()
                         t_s = time.time()
                         info = self.trainer.take_action(info, self.env, self.brain_name, 0, self.normalize,
                                                         stochastic=False)
+                        recoding.append(info.states[0])
                         done = info.local_done[0]
                         time.sleep(max(0, 1 / self.fps - (time.time() - t_s)))
+                    # pickle.dump(recoding, open("observation.p", "wb"))
+                    
                 time.sleep(0.1)
 
     def pause(self):

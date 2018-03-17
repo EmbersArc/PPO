@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="jdk" jdkName="Python 3.6.3 (~/anaconda3/envs/tensorflow36/bin/python)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="OptimalLanding" />
+    <orderEntry type="module" module-name="OptimalLanding" />
+    <orderEntry type="module" module-name="codegen" />
+  </component>
+</module>

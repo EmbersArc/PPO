@@ -1,27 +1,1098 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4bcffc17-7b43-4ecf-af84-2f3c84f8212e" name="Default" comment="" />
+    <list default="true" id="4bcffc17-7b43-4ecf-af84-2f3c84f8212e" name="Default" comment="la">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/PPO.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/graphexporter.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000000.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000015.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000030.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000045.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000060.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000075.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000090.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000105.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000120.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000135.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000150.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000165.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000180.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000195.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000210.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000225.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000240.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000255.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000270.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000285.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000300.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000315.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000330.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000345.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000360.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000375.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000390.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000405.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000420.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000435.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000450.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000465.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000480.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000495.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000510.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000525.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000540.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000555.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000570.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000585.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000600.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000615.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000630.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000645.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000660.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000675.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000690.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000705.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000720.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000735.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000750.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000765.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000780.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000795.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000810.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000825.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000840.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000855.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000870.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000885.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000900.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000915.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000930.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000945.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000960.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000975.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video000990.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001005.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001020.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001035.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001050.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001065.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001080.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001095.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001110.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001125.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001140.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001155.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001170.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001185.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001200.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001215.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001230.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001245.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001260.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001275.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001290.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001305.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001320.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001335.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001350.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001365.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001380.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001395.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001410.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001425.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001440.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001455.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001470.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001485.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001500.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001515.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001530.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001545.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001560.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001575.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001590.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001605.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001620.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001635.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001650.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001665.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001680.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001695.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001710.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001725.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001740.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001755.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001770.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001785.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001800.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001815.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001830.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001845.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001860.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001875.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001890.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001905.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001920.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001935.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001950.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001965.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001980.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video001995.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video002010.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video002025.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/working model/video/openaigym.video.0.11426.video002040.mp4" />
+      <change beforePath="$PROJECT_DIR$/../OptimalLanding/EoM.m" afterPath="$PROJECT_DIR$/../OptimalLanding/EoM.m" />
+      <change beforePath="$PROJECT_DIR$/../OptimalLanding/helper_functions/alpha.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../OptimalLanding/helper_functions/beta.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../OptimalLanding/main.py" afterPath="$PROJECT_DIR$/../OptimalLanding/main.py" />
+      <change beforePath="$PROJECT_DIR$/../OptimalLanding/parameters.py" afterPath="$PROJECT_DIR$/../OptimalLanding/parameters.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/PPO2.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/agents/environment.py" afterPath="$PROJECT_DIR$/agents/environment.py" />
+      <change beforePath="$PROJECT_DIR$/models/RocketLander-v0.bytes" afterPath="$PROJECT_DIR$/models/RocketLander-v0.bytes" />
+      <change beforePath="$PROJECT_DIR$/models/checkpoint" afterPath="$PROJECT_DIR$/models/checkpoint" />
+      <change beforePath="$PROJECT_DIR$/models/model-1300000.cptk.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-1300000.cptk.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-1300000.cptk.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-1350000.cptk.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-1350000.cptk.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-1350000.cptk.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-1400000.cptk.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-1400000.cptk.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-1400000.cptk.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-1450000.cptk.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-1450000.cptk.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-1450000.cptk.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-1550000.cptk.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-1550000.cptk.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-1550000.cptk.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-2500000.cptk.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-2500000.cptk.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-2500000.cptk.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-3000000.cptk.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-3000000.cptk.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-3000000.cptk.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-3500000.cptk.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-3500000.cptk.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-3500000.cptk.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-4000000.cptk.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-4000000.cptk.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-4000000.cptk.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-4000001.cptk.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-4000001.cptk.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-4000001.cptk.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-4050000.cptk.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-4050000.cptk.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-4050000.cptk.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-4100000.cptk.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-4100000.cptk.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-4100000.cptk.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-4150000.cptk.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-4150000.cptk.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-4150000.cptk.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-4200000.cptk.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-4200000.cptk.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-4200000.cptk.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-4250000.cptk.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-4250000.cptk.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-4250000.cptk.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-4500000.cptk.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-4500000.cptk.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-4500000.cptk.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-6500000.cptk.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-6500000.cptk.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-6500000.cptk.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-700000.cptk.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-700000.cptk.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-700000.cptk.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-7000000.cptk.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-7000000.cptk.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-7000000.cptk.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-7100000.cptk.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-7100000.cptk.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-7100000.cptk.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-7150000.cptk.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-7150000.cptk.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-7150000.cptk.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-7200000.cptk.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-7200000.cptk.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-7200000.cptk.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-7250000.cptk.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-7250000.cptk.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-7250000.cptk.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-7300000.cptk.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-7300000.cptk.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-7300000.cptk.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-750000.cptk.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-750000.cptk.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-750000.cptk.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-7500000.cptk.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-7500000.cptk.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-7500000.cptk.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-7850000.cptk.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-7850000.cptk.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-7850000.cptk.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-7900000.cptk.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-7900000.cptk.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-7900000.cptk.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-7950000.cptk.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-7950000.cptk.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-7950000.cptk.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-800000.cptk.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-800000.cptk.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-800000.cptk.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-8000000.cptk.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-8000000.cptk.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-8000000.cptk.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-8000001.cptk.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-8000001.cptk.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-8000001.cptk.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-850000.cptk.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-850000.cptk.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-850000.cptk.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-8500000.cptk.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-8500000.cptk.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-8500000.cptk.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-900000.cptk.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-900000.cptk.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/model-900000.cptk.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/raw_graph_def.pb" afterPath="$PROJECT_DIR$/models/raw_graph_def.pb" />
+      <change beforePath="$PROJECT_DIR$/ppo.py" afterPath="$PROJECT_DIR$/ppo.py" />
+      <change beforePath="$PROJECT_DIR$/ppo/renderthread.py" afterPath="$PROJECT_DIR$/ppo/renderthread.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../OptimalLanding/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2678">
+              <caret line="32" column="37" lean-forward="false" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="visualizer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../OptimalLanding/visualizer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="codegen.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../codegen/codegen.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="39" column="12" lean-forward="false" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parameters.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../OptimalLanding/parameters.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pri</find>
+      <find>[0,</find>
+      <find>a0</find>
+      <find>print</find>
+      <find>alpha</find>
+      <find>reward</find>
+      <find>render</find>
+      <find>env_render</find>
+      <find>thrust</find>
+      <find>angle</find>
+      <find>smoke.app</find>
+      <find>x14</find>
+      <find>sigma</find>
+      <find>Kn</find>
+      <find>v_i</find>
+      <find>v_I_final</find>
+      <find>g_</find>
+      <find>g_I</find>
+      <find>]</find>
+      <find>alpha_m</find>
+      <find>norm</find>
+      <find>delta_s</find>
+      <find>sig</find>
+      <find>reshape</find>
+      <find>sigma_ = tf</find>
+      <find>sigma =</find>
+      <find>^</find>
+      <find>u3</find>
+      <find>sign</find>
+      <find>a</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>x[13]</replace>
+      <replace>K</replace>
+      <replace>)</replace>
+      <replace>**</replace>
+      <replace>u[2]</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../OptimalLanding" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$USER_HOME$/PycharmProjects/OptimalLanding/main.py" />
+        <option value="$PROJECT_DIR$/../OptimalLanding/matrices.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/../gym/gym/wrappers/frame_skipping.py" />
+        <option value="$PROJECT_DIR$/../gym/gym/envs/classic_control/rendering.py" />
+        <option value="$PROJECT_DIR$/../gym/gym/envs/box2d/__init__.py" />
+        <option value="$PROJECT_DIR$/../gym/gym/envs/__init__.py" />
+        <option value="$PROJECT_DIR$/../gym/gym/envs/box2d/visualize3d.py" />
+        <option value="$PROJECT_DIR$/ppo/mp2.py" />
+        <option value="$PROJECT_DIR$/ppo/mp1.py" />
+        <option value="$PROJECT_DIR$/../gym/gym/envs/box2d/rocket_lander3D.py" />
+        <option value="$PROJECT_DIR$/ppo/renderthread.py" />
+        <option value="$PROJECT_DIR$/../OptimalLanding/picos.py" />
+        <option value="$PROJECT_DIR$/../OptimalLanding/old/visualizer.py" />
+        <option value="$PROJECT_DIR$/../OptimalLanding/solve_socp.m" />
+        <option value="$PROJECT_DIR$/../OptimalLanding/test.py" />
+        <option value="$PROJECT_DIR$/ppo.py" />
+        <option value="$PROJECT_DIR$/agents/environment.py" />
+        <option value="$PROJECT_DIR$/graphexporter.py" />
+        <option value="$PROJECT_DIR$/../OptimalLanding/visualizer.py" />
+        <option value="$PROJECT_DIR$/../gym/gym/envs/box2d/rocket_lander.py" />
+        <option value="$PROJECT_DIR$/../OptimalLanding/main.py" />
+        <option value="$PROJECT_DIR$/../OptimalLanding/codegen/codegen.py" />
+        <option value="$PROJECT_DIR$/../codegen/codegen.py" />
+        <option value="$PROJECT_DIR$/../OptimalLanding/parameters.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="100" />
+    <option name="width" value="2269" />
+    <option name="height" value="1246" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PPO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codegen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PPO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OptimalLanding" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../OptimalLanding/main.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../gym/gym/envs/box2d" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../OptimalLanding/trajectory" />
+      <recent name="$PROJECT_DIR$/../OptimalLanding/old" />
+      <recent name="$PROJECT_DIR$/.." />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="codegen" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../codegen" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="codegen" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../codegen/codegen.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="graphexporter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PPO" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/graphexporter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../OptimalLanding" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="OptimalLanding" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../OptimalLanding/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="ppo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/tensorflow36/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PPO" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ppo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../OptimalLanding" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="OptimalLanding" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../OptimalLanding/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PPO2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PPO2" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PPO2" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PPO2" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PPO2" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PPO2" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.codegen" />
+      <item index="1" class="java.lang.String" itemvalue="Python.ppo" />
+      <item index="2" class="java.lang.String" itemvalue="Python.main" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test" />
+      <item index="4" class="java.lang.String" itemvalue="Python.graphexporter" />
+    </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.graphexporter" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ppo" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="4bcffc17-7b43-4ecf-af84-2f3c84f8212e" name="Default" comment="" />
       <created>1514115894886</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514115894886</updated>
     </task>
+    <task id="LOCAL-00001" summary="working config, use frame skip">
+      <created>1519502828547</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1519502828547</updated>
+    </task>
+    <task id="LOCAL-00002" summary="improvements">
+      <created>1519685708171</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1519685708171</updated>
+    </task>
+    <task id="LOCAL-00003" summary="almost working">
+      <created>1520083289162</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1520083289162</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fixes">
+      <created>1520114850437</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1520114850437</updated>
+    </task>
+    <task id="LOCAL-00005" summary="improvements">
+      <created>1520171743840</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1520171743840</updated>
+    </task>
+    <task id="LOCAL-00006" summary="use odeint">
+      <created>1520264826174</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1520264826174</updated>
+    </task>
+    <task id="LOCAL-00007" summary="works but very slow">
+      <created>1520355062915</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1520355062915</updated>
+    </task>
+    <task id="LOCAL-00008" summary="now using CVXPY">
+      <created>1520454013694</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1520454013694</updated>
+    </task>
+    <task id="LOCAL-00009" summary="removed incorrect integration">
+      <created>1520519923209</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1520519923209</updated>
+    </task>
+    <task id="LOCAL-00010" summary="new integration">
+      <created>1520781653607</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1520781653607</updated>
+    </task>
+    <task id="LOCAL-00011" summary="working (?)">
+      <created>1520788018581</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1520788018581</updated>
+    </task>
+    <task id="LOCAL-00012" summary="working configuration">
+      <created>1520803138532</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1520803138532</updated>
+    </task>
+    <task id="LOCAL-00013" summary="increase weight for faster convergence">
+      <created>1520852675035</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1520852675035</updated>
+    </task>
+    <task id="LOCAL-00014" summary="few tweaks">
+      <created>1520960394078</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1520960394079</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
+  <component name="ToolWindowManager">
+    <frame x="100" y="0" width="2560" height="1395" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21284983" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32780412" sideWeight="0.501845" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25908372" sideWeight="0.49815497" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951945" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3949447" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.m" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="working config, use frame skip" />
+    <MESSAGE value="almost working" />
+    <MESSAGE value="fixes" />
+    <MESSAGE value="improvements" />
+    <MESSAGE value="use odeint" />
+    <MESSAGE value="works but very slow" />
+    <MESSAGE value="now using CVXPY" />
+    <MESSAGE value="removed incorrect integration" />
+    <MESSAGE value="new integration" />
+    <MESSAGE value="working (?)" />
+    <MESSAGE value="working configuration" />
+    <MESSAGE value="increase weight for faster convergence" />
+    <MESSAGE value="few tweaks" />
+    <option name="LAST_COMMIT_MESSAGE" value="few tweaks" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="26" />
+    </breakpoint-manager>
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../gym/gym/wrappers/monitoring/video_recorder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4680">
+          <caret line="269" column="62" lean-forward="false" selection-start-line="269" selection-start-column="62" selection-end-line="269" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gym/gym/envs/classic_control/rendering.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gym/gym/envs/box2d/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gym/gym/envs/registration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gym/gym/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gym/gym/envs/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="114" column="1" lean-forward="true" selection-start-line="114" selection-start-column="1" selection-end-line="114" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppo/trainer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="100" column="39" lean-forward="false" selection-start-line="100" selection-start-column="33" selection-end-line="100" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppo/mp2.py" />
+    <entry file="file://$PROJECT_DIR$/ppo/mp1.py" />
+    <entry file="file://$PROJECT_DIR$/../gym/gym/envs/box2d/visualize3d.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow36/lib/python3.6/site-packages/picos/expression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="1517" column="0" lean-forward="false" selection-start-line="1517" selection-start-column="0" selection-end-line="1517" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow36/lib/python3.6/site-packages/picos/tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="1285" column="0" lean-forward="false" selection-start-line="1285" selection-start-column="0" selection-end-line="1285" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/209836009/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../OptimalLanding/old/picos.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow36/lib/python3.6/matlab/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/../OptimalLanding/old/main.m" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow36/lib/python3.6/site-packages/matplotlib/axes/_base.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow36/lib/python3.6/site-packages/matplotlib/figure.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow36/lib/python3.6/site-packages/numpy/lib/function_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="4657" column="17" lean-forward="true" selection-start-line="4657" selection-start-column="17" selection-end-line="4657" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow36/lib/python3.6/site-packages/scipy/integrate/_ode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="346" column="8" lean-forward="false" selection-start-line="346" selection-start-column="8" selection-end-line="346" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppo/renderthread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="33" column="44" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../OptimalLanding/old/visualizer.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow36/lib/python3.6/site-packages/matlab/__init__.py" />
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/209836009/numpy/core/umath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="1050" column="4" lean-forward="false" selection-start-line="1050" selection-start-column="4" selection-end-line="1050" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow36/lib/python3.6/site-packages/cvxpy-1.0.0-py3.6-linux-x86_64.egg/cvxpy/expressions/expression.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow36/lib/python3.6/site-packages/numpy/linalg/linalg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="2102" column="4" lean-forward="false" selection-start-line="2102" selection-start-column="4" selection-end-line="2102" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow36/lib/python3.6/site-packages/numpy/core/function_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../OptimalLanding/test.py" />
+    <entry file="file://$PROJECT_DIR$/../OptimalLanding/solve_socp.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2181">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="71" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow36/lib/python3.6/site-packages/numpy/core/fromnumeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2100" column="4" lean-forward="false" selection-start-line="2100" selection-start-column="4" selection-end-line="2100" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../OptimalLanding/EoM.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow36/lib/python3.6/site-packages/matplotlib/animation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="1488" column="6" lean-forward="false" selection-start-line="1488" selection-start-column="6" selection-end-line="1488" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gym/gym/envs/box2d/rocket_lander3D.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="53" column="90" lean-forward="false" selection-start-line="53" selection-start-column="90" selection-end-line="53" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphexporter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow36/lib/python3.6/site-packages/scipy/integrate/odepack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="214" column="0" lean-forward="false" selection-start-line="214" selection-start-column="0" selection-end-line="214" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agents/environment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="31" column="48" lean-forward="false" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/209836009/numpy/core/multiarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="4655" column="8" lean-forward="false" selection-start-line="4655" selection-start-column="8" selection-end-line="4655" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow36/lib/python3.6/site-packages/cvxpy-1.0.0-py3.6-linux-x86_64.egg/cvxpy/expressions/leaf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="78" column="8" lean-forward="false" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gym/gym/envs/box2d/rocket_lander.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="57" column="39" lean-forward="true" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../OptimalLanding/codegen/codegen.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow36/lib/python3.6/site-packages/cvxpy-1.0.0-py3.6-linux-x86_64.egg/cvxpy/expressions/constants/parameter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/codegen2.7/lib/python2.7/site-packages/cvxpy-0.4.11-py2.7.egg/cvxpy/utilities/key_utils.py" />
+    <entry file="file://$PROJECT_DIR$/../codegen/opt_ctrl_example/codegen.h" />
+    <entry file="file://$PROJECT_DIR$/../codegen/opt_ctrl_example/codegen.c" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/codegen35/lib/python3.5/site-packages/cvxpy-0.4.11-py3.5.egg/cvxpy/atoms/affine/reshape.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../OptimalLanding/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2678">
+          <caret line="32" column="37" lean-forward="false" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../codegen/codegen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="39" column="12" lean-forward="false" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../OptimalLanding/visualizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../OptimalLanding/parameters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

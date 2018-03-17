@@ -56,7 +56,7 @@ train_model = False
 # render environment to display progress
 render = True
 # save recordings of episodes
-record = False
+record = True
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"  # GPU is not efficient here
 
